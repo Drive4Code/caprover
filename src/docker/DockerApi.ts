@@ -319,6 +319,7 @@ class DockerApi {
                 }
 
                 const optionsForBuild: Dockerode.ImageBuildOptions = {
+                    version: '2',
                     t: imageName,
                     buildargs: buildargs,
                 }
